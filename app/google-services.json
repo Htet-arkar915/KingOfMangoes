@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "799232576992",
+    "firebase_url": "https://kingofmangoes-c5639.firebaseio.com",
+    "project_id": "kingofmangoes-c5639",
+    "storage_bucket": "kingofmangoes-c5639.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799232576992:android:c340aa839e449e9b",
+        "android_client_info": {
+          "package_name": "com.creativewave.ucsmtla.kingofmangoes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799232576992-boegokau24upmadfirqfbluh8snaihgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADFBSCKzbko9S-M3qmKOapLKoxuS6nXvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799232576992-boegokau24upmadfirqfbluh8snaihgr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

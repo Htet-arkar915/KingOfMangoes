@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.activity.Messaging_activity">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="16dp"
+    android:id="@+id/real_profile"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/real_profile"
+        android:textSize="16dp"
+        android:text="Ko Ko"
+        android:id="@+id/real_accountname"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/real_accountname"
+        android:layout_above="@+id/real_message"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/real_message"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/send_message_button"
+        />
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/send_message_button"
+        android:text="send"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

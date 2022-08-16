@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.creativewave.ucsmtla.kingofmangoes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".views.Admin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".views.VideoEg" />
+        <activity android:name=".views.ShowData" />
+        <activity android:name=".views.UploaQList" />
+        <activity android:name=".views.UploadQType" />
+        <activity android:name=".views.MainActivity" />
+        <activity android:name=".views.UploadAction" />
+        <activity android:name=".views.UploadActionType" />
+        <activity android:name=".views.UploadStateZip" />
+        <activity android:name=".views.UploadTown" />
+        <activity android:name=".views.activity.Registeration" />
+        <activity android:name=".views.activity.TodayTip" />
+        <activity android:name=".Add_Advisor_Activity" />
+        <activity android:name=".views.activity.AdvisorListActivity" />
+        <activity android:name=".views.activity.Messaging_activity" />
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".views.activity.ADD_Tempeture_activity" />
+        <activity android:name=".views.activity.Add_Recommended_Plant_Activity" />
+        <activity android:name=".views.activity.Recommend_Plant" />
+        <activity android:name=".views.activity.Recommend_Answer" />
+    </application>
+
+</manifest>

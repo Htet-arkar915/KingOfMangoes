@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#F37616</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="before">#fafaff</color>
+    <color name="after">#C4D2E4</color>
+    <color name="tvbefore">#fafaff</color>
+    <color name="tvafter">#f2e269</color>
+    <color name="bordercolor">#858383</color>
+</resources>

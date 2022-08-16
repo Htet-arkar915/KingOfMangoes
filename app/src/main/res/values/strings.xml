@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KingOfMangoes</string>
+    <string name="choose_action">Select Action (Click Me!)</string>
+    <string name="choose_ques">Select Question (Click Me!)</string>
+    <string name="choose_ans">Select Answer (Click Me!)</string>
+    <string name="acre">ဧက</string>
+    <string name="feet">ေပ</string>
+
+    <string name="seed">အေစ့စိုက္</string>
+    <string name="plant">ကိုင္းကူး</string>
+
+    <string-array name="distance_arr">
+        <item>၁၅ ေပ ႏွင့္ ၂၀ ေပ ၾကား</item>
+        <item>၂၀ ေပ ႏွင့္ ၃၀ ေပ ၾကား</item>
+        <item>၃၀ ေပ ႏွင့္ ၄၀ ေပ ၾကား</item>
+        <item>၄၀ ေပ ႏွင့္ အထက္</item>
+    </string-array>
+</resources>
